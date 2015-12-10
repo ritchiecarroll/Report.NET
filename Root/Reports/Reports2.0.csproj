@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73E7756A-EFE1-4267-8A3A-EF76C31C1CAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Root.Reports</RootNamespace>
+    <AssemblyName>Reports</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Framework2;Compatible_0_8x</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Reports.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;Framework2;Compatible_0_8x</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Release\Reports.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formatter.cs" />
+    <Compile Include="ImageData.cs" />
+    <Compile Include="LayoutManager\FlowLayoutManager.cs" />
+    <Compile Include="LayoutManager\LayoutManager.cs" />
+    <Compile Include="LayoutManager\ListLayoutManager.cs" />
+    <Compile Include="LayoutManager\TableLayoutManager.cs" />
+    <Compile Include="LayoutManager\TlmBase.cs" />
+    <Compile Include="LayoutManager\TlmCell.cs" />
+    <Compile Include="LayoutManager\TlmCellDef.cs" />
+    <Compile Include="LayoutManager\TlmColumn.cs" />
+    <Compile Include="LayoutManager\TlmColumnDef.cs" />
+    <Compile Include="LayoutManager\TlmRow.cs" />
+    <Compile Include="LayoutManager\TlmRowDef.cs" />
+    <Compile Include="MatrixD.cs" />
+    <Compile Include="PDF\PdfIndirectObject_Font.cs" />
+    <Compile Include="PDF\PdfIndirectObject_PageContents.cs" />
+    <Compile Include="PDF\PdfFileElement.cs" />
+    <Compile Include="PDF\PdfIndirectObject.cs" />
+    <Compile Include="PDF\GraphicsState.cs" />
+    <Compile Include="PDF\PdfReport.cs" />
+    <Compile Include="PDF\PdfFormatter.cs" />
+    <Compile Include="PDF\PdfGraphicsStateData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prop\BrushProp.cs" />
+    <Compile Include="Prop\FontProp.cs" />
+    <Compile Include="Prop\OpenTypeReader.cs" />
+    <Compile Include="Prop\FontData.cs" />
+    <Compile Include="Prop\FontDef.cs" />
+    <Compile Include="Prop\GraphicsStateData.cs" />
+    <Compile Include="Prop\PenProp.cs" />
+    <Compile Include="Prop\OpenTypeFontData.cs" />
+    <Compile Include="Prop\Type1FontData.cs" />
+    <Compile Include="RepObj\Container.cs" />
+    <Compile Include="RepObj\Page.cs" />
+    <Compile Include="RepObj\PageData.cs" />
+    <Compile Include="PDF\PdfRepObjX.cs" />
+    <Compile Include="RepObj\RepArc.cs" />
+    <Compile Include="RepObj\RepImage.cs" />
+    <Compile Include="RepObj\RepLine.cs" />
+    <Compile Include="RepObj\RepObj.cs" />
+    <Compile Include="RepObj\RepPoly.cs" />
+    <Compile Include="RepObj\RepRect.cs" />
+    <Compile Include="RepObj\RepString.cs" />
+    <Compile Include="RepObj\StaticContainer.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="ReportException.cs" />
+    <Compile Include="RT.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RT.de.resx">
+      <DependentUpon>RT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RT.fr.resx">
+      <DependentUpon>RT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RT.it.resx">
+      <DependentUpon>RT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RT.resx">
+      <DependentUpon>RT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PDF\afm\Courier-Bold.afm" />
+    <EmbeddedResource Include="PDF\afm\Courier-BoldOblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Courier-Oblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Courier.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica-Bold.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica-BoldOblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica-Oblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica.afm" />
+    <EmbeddedResource Include="PDF\afm\Symbol.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-Bold.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-BoldItalic.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-Italic.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-Roman.afm" />
+    <EmbeddedResource Include="PDF\afm\ZapfDingbats.afm" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PDF\afm\MustRead.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Win\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

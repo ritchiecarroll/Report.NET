@@ -1,0 +1,843 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="de-CH">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Customers">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+                <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+                <xs:element name="Address" type="xs:string" minOccurs="0" />
+                <xs:element name="City" type="xs:string" minOccurs="0" />
+                <xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+                <xs:element name="Country" type="xs:string" minOccurs="0" />
+                <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Customers>
+    <CustomerID>ALFKI</CustomerID>
+    <CompanyName>Alfreds Futterkiste</CompanyName>
+    <Address>Obere Str. 57</Address>
+    <City>Berlin</City>
+    <PostalCode>12209</PostalCode>
+    <Country>Germany</Country>
+    <Phone>030-0074321</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>ANATR</CustomerID>
+    <CompanyName>Ana Trujillo Emparedados y helados</CompanyName>
+    <Address>Avda. de la Constitución 2222</Address>
+    <City>México D.F.</City>
+    <PostalCode>05021</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-4729</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>ANTON</CustomerID>
+    <CompanyName>Antonio Moreno Taquería</CompanyName>
+    <Address>Mataderos  2312</Address>
+    <City>México D.F.</City>
+    <PostalCode>05023</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-3932</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>AROUT</CustomerID>
+    <CompanyName>Around the Horn</CompanyName>
+    <Address>120 Hanover Sq.</Address>
+    <City>London</City>
+    <PostalCode>WA1 1DP</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-7788</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BERGS</CustomerID>
+    <CompanyName>Berglunds snabbköp</CompanyName>
+    <Address>Berguvsvägen  8</Address>
+    <City>Luleå</City>
+    <PostalCode>S-958 22</PostalCode>
+    <Country>Sweden</Country>
+    <Phone>0921-12 34 65</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BLAUS</CustomerID>
+    <CompanyName>Blauer See Delikatessen</CompanyName>
+    <Address>Forsterstr. 57</Address>
+    <City>Mannheim</City>
+    <PostalCode>68306</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0621-08460</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BLONP</CustomerID>
+    <CompanyName>Blondesddsl père et fils</CompanyName>
+    <Address>24, place Kléber</Address>
+    <City>Strasbourg</City>
+    <PostalCode>67000</PostalCode>
+    <Country>France</Country>
+    <Phone>88.60.15.31</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BOLID</CustomerID>
+    <CompanyName>Bólido Comidas preparadas</CompanyName>
+    <Address>C/ Araquil, 67</Address>
+    <City>Madrid</City>
+    <PostalCode>28023</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 555 22 82</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BONAP</CustomerID>
+    <CompanyName>Bon app'</CompanyName>
+    <Address>12, rue des Bouchers</Address>
+    <City>Marseille</City>
+    <PostalCode>13008</PostalCode>
+    <Country>France</Country>
+    <Phone>91.24.45.40</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BOTTM</CustomerID>
+    <CompanyName>Bottom-Dollar Markets</CompanyName>
+    <Address>23 Tsawassen Blvd.</Address>
+    <City>Tsawassen</City>
+    <PostalCode>T2F 8M4</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(604) 555-4729</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>BSBEV</CustomerID>
+    <CompanyName>B's Beverages</CompanyName>
+    <Address>Fauntleroy Circus</Address>
+    <City>London</City>
+    <PostalCode>EC2 5NT</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-1212</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>CACTU</CustomerID>
+    <CompanyName>Cactus Comidas para llevar</CompanyName>
+    <Address>Cerrito 333</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 135-5555</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>CENTC</CustomerID>
+    <CompanyName>Centro comercial Moctezuma</CompanyName>
+    <Address>Sierras de Granada 9993</Address>
+    <City>México D.F.</City>
+    <PostalCode>05022</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-3392</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>CHOPS</CustomerID>
+    <CompanyName>Chop-suey Chinese</CompanyName>
+    <Address>Hauptstr. 29</Address>
+    <City>Bern</City>
+    <PostalCode>3012</PostalCode>
+    <Country>Switzerland</Country>
+    <Phone>0452-076545</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>COMMI</CustomerID>
+    <CompanyName>Comércio Mineiro</CompanyName>
+    <Address>Av. dos Lusíadas, 23</Address>
+    <City>Sao Paulo</City>
+    <PostalCode>05432-043</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-7647</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>CONSH</CustomerID>
+    <CompanyName>Consolidated Holdings</CompanyName>
+    <Address>Berkeley Gardens 12  Brewery</Address>
+    <City>London</City>
+    <PostalCode>WX1 6LT</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-2282</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>WANDK</CustomerID>
+    <CompanyName>Die Wandernde Kuh</CompanyName>
+    <Address>Adenauerallee 900</Address>
+    <City>Stuttgart</City>
+    <PostalCode>70563</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0711-020361</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>DRACD</CustomerID>
+    <CompanyName>Drachenblut Delikatessen</CompanyName>
+    <Address>Walserweg 21</Address>
+    <City>Aachen</City>
+    <PostalCode>52066</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0241-039123</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>DUMON</CustomerID>
+    <CompanyName>Du monde entier</CompanyName>
+    <Address>67, rue des Cinquante Otages</Address>
+    <City>Nantes</City>
+    <PostalCode>44000</PostalCode>
+    <Country>France</Country>
+    <Phone>40.67.88.88</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>EASTC</CustomerID>
+    <CompanyName>Eastern Connection</CompanyName>
+    <Address>35 King George</Address>
+    <City>London</City>
+    <PostalCode>WX3 6FW</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-0297</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>ERNSH</CustomerID>
+    <CompanyName>Ernst Handel</CompanyName>
+    <Address>Kirchgasse 6</Address>
+    <City>Graz</City>
+    <PostalCode>8010</PostalCode>
+    <Country>Austria</Country>
+    <Phone>7675-3425</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FAMIA</CustomerID>
+    <CompanyName>Familia Arquibaldo</CompanyName>
+    <Address>Rua Orós, 92</Address>
+    <City>Sao Paulo</City>
+    <PostalCode>05442-030</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-9857</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FISSA</CustomerID>
+    <CompanyName>FISSA Fabrica Inter. Salchichas S.A.</CompanyName>
+    <Address>C/ Moralzarzal, 86</Address>
+    <City>Madrid</City>
+    <PostalCode>28034</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 555 94 44</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FOLIG</CustomerID>
+    <CompanyName>Folies gourmandes</CompanyName>
+    <Address>184, chaussée de Tournai</Address>
+    <City>Lille</City>
+    <PostalCode>59000</PostalCode>
+    <Country>France</Country>
+    <Phone>20.16.10.16</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FOLKO</CustomerID>
+    <CompanyName>Folk och fä HB</CompanyName>
+    <Address>Åkergatan 24</Address>
+    <City>Bräcke</City>
+    <PostalCode>S-844 67</PostalCode>
+    <Country>Sweden</Country>
+    <Phone>0695-34 67 21</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FRANR</CustomerID>
+    <CompanyName>France restauration</CompanyName>
+    <Address>54, rue Royale</Address>
+    <City>Nantes</City>
+    <PostalCode>44000</PostalCode>
+    <Country>France</Country>
+    <Phone>40.32.21.21</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FRANS</CustomerID>
+    <CompanyName>Franchi S.p.A.</CompanyName>
+    <Address>Via Monte Bianco 34</Address>
+    <City>Torino</City>
+    <PostalCode>10100</PostalCode>
+    <Country>Italy</Country>
+    <Phone>011-4988260</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FRANK</CustomerID>
+    <CompanyName>Frankenversand</CompanyName>
+    <Address>Berliner Platz 43</Address>
+    <City>München</City>
+    <PostalCode>80805</PostalCode>
+    <Country>Germany</Country>
+    <Phone>089-0877310</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>FURIB</CustomerID>
+    <CompanyName>Furia Bacalhau e Frutos do Mar</CompanyName>
+    <Address>Jardim das rosas n. 32</Address>
+    <City>Lisboa</City>
+    <PostalCode>1675</PostalCode>
+    <Country>Portugal</Country>
+    <Phone>(1) 354-2534</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>GALED</CustomerID>
+    <CompanyName>Galería del gastrónomo</CompanyName>
+    <Address>Rambla de Cataluña, 23</Address>
+    <City>Barcelona</City>
+    <PostalCode>08022</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(93) 203 4560</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>GODOS</CustomerID>
+    <CompanyName>Godos Cocina Típica</CompanyName>
+    <Address>C/ Romero, 33</Address>
+    <City>Sevilla</City>
+    <PostalCode>41101</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(95) 555 82 82</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>GOURL</CustomerID>
+    <CompanyName>Gourmet Lanchonetes</CompanyName>
+    <Address>Av. Brasil, 442</Address>
+    <City>Campinas</City>
+    <PostalCode>04876-786</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-9482</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>GREAL</CustomerID>
+    <CompanyName>Great Lakes Food Market</CompanyName>
+    <Address>2732 Baker Blvd.</Address>
+    <City>Eugene</City>
+    <PostalCode>97403</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-7555</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>GROSR</CustomerID>
+    <CompanyName>GROSELLA-Restaurante</CompanyName>
+    <Address>5ª Ave. Los Palos Grandes</Address>
+    <City>Caracas</City>
+    <PostalCode>1081</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(2) 283-2951</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>HANAR</CustomerID>
+    <CompanyName>Hanari Carnes</CompanyName>
+    <Address>Rua do Paço, 67</Address>
+    <City>Rio de Janeiro</City>
+    <PostalCode>05454-876</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(21) 555-0091</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>HILAA</CustomerID>
+    <CompanyName>HILARION-Abastos</CompanyName>
+    <Address>Carrera 22 con Ave. Carlos Soublette #8-35</Address>
+    <City>San Cristóbal</City>
+    <PostalCode>5022</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(5) 555-1340</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>HUNGC</CustomerID>
+    <CompanyName>Hungry Coyote Import Store</CompanyName>
+    <Address>City Center Plaza 516 Main St.</Address>
+    <City>Elgin</City>
+    <PostalCode>97827</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-6874</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>HUNGO</CustomerID>
+    <CompanyName>Hungry Owl All-Night Grocers</CompanyName>
+    <Address>8 Johnstown Road</Address>
+    <City>Cork</City>
+    <PostalCode>85757</PostalCode>
+    <Country>Ireland</Country>
+    <Phone>2967 542</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>ISLAT</CustomerID>
+    <CompanyName>Island Trading</CompanyName>
+    <Address>Garden House Crowther Way</Address>
+    <City>Cowes</City>
+    <PostalCode>PO31 7PJ</PostalCode>
+    <Country>UK</Country>
+    <Phone>(198) 555-8888</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>KOENE</CustomerID>
+    <CompanyName>Königlich Essen</CompanyName>
+    <Address>Maubelstr. 90</Address>
+    <City>Brandenburg</City>
+    <PostalCode>14776</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0555-09876</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LACOR</CustomerID>
+    <CompanyName>La corne d'abondance</CompanyName>
+    <Address>67, avenue de l'Europe</Address>
+    <City>Versailles</City>
+    <PostalCode>78000</PostalCode>
+    <Country>France</Country>
+    <Phone>30.59.84.10</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LAMAI</CustomerID>
+    <CompanyName>La maison d'Asie</CompanyName>
+    <Address>1 rue Alsace-Lorraine</Address>
+    <City>Toulouse</City>
+    <PostalCode>31000</PostalCode>
+    <Country>France</Country>
+    <Phone>61.77.61.10</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LAUGB</CustomerID>
+    <CompanyName>Laughing Bacchus Wine Cellars</CompanyName>
+    <Address>1900 Oak St.</Address>
+    <City>Vancouver</City>
+    <PostalCode>V3F 2K1</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(604) 555-3392</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LAZYK</CustomerID>
+    <CompanyName>Lazy K Kountry Store</CompanyName>
+    <Address>12 Orchestra Terrace</Address>
+    <City>Walla Walla</City>
+    <PostalCode>99362</PostalCode>
+    <Country>USA</Country>
+    <Phone>(509) 555-7969</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LEHMS</CustomerID>
+    <CompanyName>Lehmanns Marktstand</CompanyName>
+    <Address>Magazinweg 7</Address>
+    <City>Frankfurt a.M.</City>
+    <PostalCode>60528</PostalCode>
+    <Country>Germany</Country>
+    <Phone>069-0245984</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LETSS</CustomerID>
+    <CompanyName>Let's Stop N Shop</CompanyName>
+    <Address>87 Polk St. Suite 5</Address>
+    <City>San Francisco</City>
+    <PostalCode>94117</PostalCode>
+    <Country>USA</Country>
+    <Phone>(415) 555-5938</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LILAS</CustomerID>
+    <CompanyName>LILA-Supermercado</CompanyName>
+    <Address>Carrera 52 con Ave. Bolívar #65-98 Llano Largo</Address>
+    <City>Barquisimeto</City>
+    <PostalCode>3508</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(9) 331-6954</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LINOD</CustomerID>
+    <CompanyName>LINO-Delicateses</CompanyName>
+    <Address>Ave. 5 de Mayo Porlamar</Address>
+    <City>I. de Margarita</City>
+    <PostalCode>4980</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(8) 34-56-12</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>LONEP</CustomerID>
+    <CompanyName>Lonesome Pine Restaurant</CompanyName>
+    <Address>89 Chiaroscuro Rd.</Address>
+    <City>Portland</City>
+    <PostalCode>97219</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-9573</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>MAGAA</CustomerID>
+    <CompanyName>Magazzini Alimentari Riuniti</CompanyName>
+    <Address>Via Ludovico il Moro 22</Address>
+    <City>Bergamo</City>
+    <PostalCode>24100</PostalCode>
+    <Country>Italy</Country>
+    <Phone>035-640230</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>MAISD</CustomerID>
+    <CompanyName>Maison Dewey</CompanyName>
+    <Address>Rue Joseph-Bens 532</Address>
+    <City>Bruxelles</City>
+    <PostalCode>B-1180</PostalCode>
+    <Country>Belgium</Country>
+    <Phone>(02) 201 24 67</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>MEREP</CustomerID>
+    <CompanyName>Mère Paillarde</CompanyName>
+    <Address>43 rue St. Laurent</Address>
+    <City>Montréal</City>
+    <PostalCode>H1J 1C3</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(514) 555-8054</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>MORGK</CustomerID>
+    <CompanyName>Morgenstern Gesundkost</CompanyName>
+    <Address>Heerstr. 22</Address>
+    <City>Leipzig</City>
+    <PostalCode>04179</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0342-023176</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>NORTS</CustomerID>
+    <CompanyName>North/South</CompanyName>
+    <Address>South House 300 Queensbridge</Address>
+    <City>London</City>
+    <PostalCode>SW7 1RZ</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-7733</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>OCEAN</CustomerID>
+    <CompanyName>Océano Atlántico Ltda.</CompanyName>
+    <Address>Ing. Gustavo Moncada 8585 Piso 20-A</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 135-5333</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>OLDWO</CustomerID>
+    <CompanyName>Old World Delicatessen</CompanyName>
+    <Address>2743 Bering St.</Address>
+    <City>Anchorage</City>
+    <PostalCode>99508</PostalCode>
+    <Country>USA</Country>
+    <Phone>(907) 555-7584</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>OTTIK</CustomerID>
+    <CompanyName>Ottilies Käseladen</CompanyName>
+    <Address>Mehrheimerstr. 369</Address>
+    <City>Köln</City>
+    <PostalCode>50739</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0221-0644327</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>PARIS</CustomerID>
+    <CompanyName>Paris spécialités</CompanyName>
+    <Address>265, boulevard Charonne</Address>
+    <City>Paris</City>
+    <PostalCode>75012</PostalCode>
+    <Country>France</Country>
+    <Phone>(1) 42.34.22.66</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>PERIC</CustomerID>
+    <CompanyName>Pericles Comidas clásicas</CompanyName>
+    <Address>Calle Dr. Jorge Cash 321</Address>
+    <City>México D.F.</City>
+    <PostalCode>05033</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 552-3745</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>PICCO</CustomerID>
+    <CompanyName>Piccolo und mehr</CompanyName>
+    <Address>Geislweg 14</Address>
+    <City>Salzburg</City>
+    <PostalCode>5020</PostalCode>
+    <Country>Austria</Country>
+    <Phone>6562-9722</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>PRINI</CustomerID>
+    <CompanyName>Princesa Isabel Vinhos</CompanyName>
+    <Address>Estrada da saúde n. 58</Address>
+    <City>Lisboa</City>
+    <PostalCode>1756</PostalCode>
+    <Country>Portugal</Country>
+    <Phone>(1) 356-5634</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>QUEDE</CustomerID>
+    <CompanyName>Que Delícia</CompanyName>
+    <Address>Rua da Panificadora, 12</Address>
+    <City>Rio de Janeiro</City>
+    <PostalCode>02389-673</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(21) 555-4252</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>QUEEN</CustomerID>
+    <CompanyName>Queen Cozinha</CompanyName>
+    <Address>Alameda dos Canàrios, 891</Address>
+    <City>Sao Paulo</City>
+    <PostalCode>05487-020</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-1189</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>QUICK</CustomerID>
+    <CompanyName>QUICK-Stop</CompanyName>
+    <Address>Taucherstraße 10</Address>
+    <City>Cunewalde</City>
+    <PostalCode>01307</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0372-035188</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>RANCH</CustomerID>
+    <CompanyName>Rancho grande</CompanyName>
+    <Address>Av. del Libertador 900</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 123-5555</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>RATTC</CustomerID>
+    <CompanyName>Rattlesnake Canyon Grocery</CompanyName>
+    <Address>2817 Milton Dr.</Address>
+    <City>Albuquerque</City>
+    <PostalCode>87110</PostalCode>
+    <Country>USA</Country>
+    <Phone>(505) 555-5939</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>REGGC</CustomerID>
+    <CompanyName>Reggiani Caseifici</CompanyName>
+    <Address>Strada Provinciale 124</Address>
+    <City>Reggio Emilia</City>
+    <PostalCode>42100</PostalCode>
+    <Country>Italy</Country>
+    <Phone>0522-556721</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>RICAR</CustomerID>
+    <CompanyName>Ricardo Adocicados</CompanyName>
+    <Address>Av. Copacabana, 267</Address>
+    <City>Rio de Janeiro</City>
+    <PostalCode>02389-890</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(21) 555-3412</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>RICSU</CustomerID>
+    <CompanyName>Richter Supermarkt</CompanyName>
+    <Address>Grenzacherweg 237</Address>
+    <City>Genève</City>
+    <PostalCode>1203</PostalCode>
+    <Country>Switzerland</Country>
+    <Phone>0897-034214</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>ROMEY</CustomerID>
+    <CompanyName>Romero y tomillo</CompanyName>
+    <Address>Gran Vía, 1</Address>
+    <City>Madrid</City>
+    <PostalCode>28001</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 745 6200</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SANTG</CustomerID>
+    <CompanyName>Santé Gourmet</CompanyName>
+    <Address>Erling Skakkes gate 78</Address>
+    <City>Stavern</City>
+    <PostalCode>4110</PostalCode>
+    <Country>Norway</Country>
+    <Phone>07-98 92 35</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SAVEA</CustomerID>
+    <CompanyName>Save-a-lot Markets</CompanyName>
+    <Address>187 Suffolk Ln.</Address>
+    <City>Boise</City>
+    <PostalCode>83720</PostalCode>
+    <Country>USA</Country>
+    <Phone>(208) 555-8097</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SEVES</CustomerID>
+    <CompanyName>Seven Seas Imports</CompanyName>
+    <Address>90 Wadhurst Rd.</Address>
+    <City>London</City>
+    <PostalCode>OX15 4NB</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-1717</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SIMOB</CustomerID>
+    <CompanyName>Simons bistro</CompanyName>
+    <Address>Vinbæltet 34</Address>
+    <City>Kobenhavn</City>
+    <PostalCode>1734</PostalCode>
+    <Country>Denmark</Country>
+    <Phone>31 12 34 56</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SPECD</CustomerID>
+    <CompanyName>Spécialités du monde</CompanyName>
+    <Address>25, rue Lauriston</Address>
+    <City>Paris</City>
+    <PostalCode>75016</PostalCode>
+    <Country>France</Country>
+    <Phone>(1) 47.55.60.10</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SPLIR</CustomerID>
+    <CompanyName>Split Rail Beer &amp; Ale</CompanyName>
+    <Address>P.O. Box 555</Address>
+    <City>Lander</City>
+    <PostalCode>82520</PostalCode>
+    <Country>USA</Country>
+    <Phone>(307) 555-4680</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>SUPRD</CustomerID>
+    <CompanyName>Suprêmes délices</CompanyName>
+    <Address>Boulevard Tirou, 255</Address>
+    <City>Charleroi</City>
+    <PostalCode>B-6000</PostalCode>
+    <Country>Belgium</Country>
+    <Phone>(071) 23 67 22 20</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>THEBI</CustomerID>
+    <CompanyName>The Big Cheese</CompanyName>
+    <Address>89 Jefferson Way Suite 2</Address>
+    <City>Portland</City>
+    <PostalCode>97201</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-3612</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>THECR</CustomerID>
+    <CompanyName>The Cracker Box</CompanyName>
+    <Address>55 Grizzly Peak Rd.</Address>
+    <City>Butte</City>
+    <PostalCode>59801</PostalCode>
+    <Country>USA</Country>
+    <Phone>(406) 555-5834</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>TOMSP</CustomerID>
+    <CompanyName>Toms Spezialitäten</CompanyName>
+    <Address>Luisenstr. 48</Address>
+    <City>Münster</City>
+    <PostalCode>44087</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0251-031259</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>TORTU</CustomerID>
+    <CompanyName>Tortuga Restaurante</CompanyName>
+    <Address>Avda. Azteca 123</Address>
+    <City>México D.F.</City>
+    <PostalCode>05033</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-2933</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>TRADH</CustomerID>
+    <CompanyName>Tradição Hipermercados</CompanyName>
+    <Address>Av. Inês de Castro, 414</Address>
+    <City>Sao Paulo</City>
+    <PostalCode>05634-030</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-2167</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>TRAIH</CustomerID>
+    <CompanyName>Trail's Head Gourmet Provisioners</CompanyName>
+    <Address>722 DaVinci Blvd.</Address>
+    <City>Kirkland</City>
+    <PostalCode>98034</PostalCode>
+    <Country>USA</Country>
+    <Phone>(206) 555-8257</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>VAFFE</CustomerID>
+    <CompanyName>Vaffeljernet</CompanyName>
+    <Address>Smagsloget 45</Address>
+    <City>Århus</City>
+    <PostalCode>8200</PostalCode>
+    <Country>Denmark</Country>
+    <Phone>86 21 32 43</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>VICTE</CustomerID>
+    <CompanyName>Victuailles en stock</CompanyName>
+    <Address>2, rue du Commerce</Address>
+    <City>Lyon</City>
+    <PostalCode>69004</PostalCode>
+    <Country>France</Country>
+    <Phone>78.32.54.86</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>VINET</CustomerID>
+    <CompanyName>Vins et alcools Chevalier</CompanyName>
+    <Address>59 rue de l'Abbaye</Address>
+    <City>Reims</City>
+    <PostalCode>51100</PostalCode>
+    <Country>France</Country>
+    <Phone>26.47.15.10</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>WARTH</CustomerID>
+    <CompanyName>Wartian Herkku</CompanyName>
+    <Address>Torikatu 38</Address>
+    <City>Oulu</City>
+    <PostalCode>90110</PostalCode>
+    <Country>Finland</Country>
+    <Phone>981-443655</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>WELLI</CustomerID>
+    <CompanyName>Wellington Importadora</CompanyName>
+    <Address>Rua do Mercado, 12</Address>
+    <City>Resende</City>
+    <PostalCode>08737-363</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(14) 555-8122</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>WHITC</CustomerID>
+    <CompanyName>White Clover Markets</CompanyName>
+    <Address>305 - 14th Ave. S. Suite 3B</Address>
+    <City>Seattle</City>
+    <PostalCode>98128</PostalCode>
+    <Country>USA</Country>
+    <Phone>(206) 555-4112</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>WILMK</CustomerID>
+    <CompanyName>Wilman Kala</CompanyName>
+    <Address>Keskuskatu 45</Address>
+    <City>Helsinki</City>
+    <PostalCode>21240</PostalCode>
+    <Country>Finland</Country>
+    <Phone>90-224 8858</Phone>
+  </Customers>
+  <Customers>
+    <CustomerID>WOLZA</CustomerID>
+    <CompanyName>Wolski  Zajazd</CompanyName>
+    <Address>ul. Filtrowa 68</Address>
+    <City>Warszawa</City>
+    <PostalCode>01-012</PostalCode>
+    <Country>Poland</Country>
+    <Phone>(26) 642-7012</Phone>
+  </Customers>
+</NewDataSet>

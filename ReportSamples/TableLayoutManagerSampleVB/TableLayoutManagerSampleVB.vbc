@@ -1,0 +1,13 @@
+/out:TableLayoutManagerSampleVB.exe
+/target:exe
+/debug-
+/r:System.dll
+/r:System.Data.dll
+/r:System.Drawing.dll
+/r:..\bin\Reports.dll
+
+"My Project\AssemblyInfo.vb"
+TableLayoutManagerSample.vb
+
+/res:Customers.xml,ReportSamples.Customers.xml
+/res:Phone.jpg,ReportSamples.Phone.jpg

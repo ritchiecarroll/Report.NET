@@ -1,0 +1,8 @@
+/out:StartTemplateVB.exe
+/target:exe
+/debug-
+/r:System.dll
+/r:..\bin\Reports.dll
+
+"My Project\AssemblyInfo.vb"
+StartTemplateVB.vb
