@@ -5,7 +5,8 @@ includes sample code for ASP.NET that can be used to create dynamic PDF-response
 This project is a fork of Otto Mayer's Report.NET class library that was originally posted on Source Forge
 under http://sourceforge.net/projects/report/.
 
-So far this fork has made no changes to the code and simply exists to create NuGet packages for various flavors of .NET.
+So far this fork has made no changes to the code and simply exists to create NuGet packages for various flavors of .NET: 
+https://www.nuget.org/packages/Report.NET/.
 
 Although you can usually use the original .NET 2.0 DLL in later versions of .NET without issues, under some circumstances
 race conditions will occur when loading the .NET 2.0 framework side-by-side within a later version of .NET when executing
