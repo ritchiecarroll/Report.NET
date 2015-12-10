@@ -1,0 +1,755 @@
+%PDF-1.4
+1 0 obj
+<</Type /Catalog
+/Version /1.4
+/Pages 5 0 R
+>>
+endobj
+2 0 obj
+<</Producer (Report.NET by root-software ag)
+/CreationDate (D:20061113)
+/ModDate (D:20061113)
+>>
+endobj
+3 0 obj
+<</Type /Page
+/Parent 5 0 R
+/Resources <</ProcSet [/Text /PDF]
+/Font <</F6 6 0 R
+/F7 7 0 R
+/F8 8 0 R
+/F9 9 0 R
+/F10 10 0 R
+/F11 11 0 R
+/F12 12 0 R
+/F13 13 0 R
+/F14 14 0 R
+/F15 15 0 R
+/F16 16 0 R
+>>
+>>
+/MediaBox [0 0 595.911 842.746]
+/CropBox [0 0 595.911 842.746]
+/Contents 17 0 R
+>>
+endobj
+4 0 obj
+<</Type /Page
+/Parent 5 0 R
+/Resources <</ProcSet [/Text /PDF]
+/Font <</F6 6 0 R
+/F10 10 0 R
+>>
+>>
+/MediaBox [0 0 595.911 842.746]
+/CropBox [0 0 595.911 842.746]
+/Contents 18 0 R
+>>
+endobj
+5 0 obj
+<</Type /Pages
+/Count 2
+/Kids [3 0 R
+4 0 R]
+>>
+endobj
+6 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Courier-Oblique
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Symbol
+>>
+endobj
+16 0 obj
+<</Type /Font
+/Subtype /Type1
+/BaseFont /ZapfDingbats
+>>
+endobj
+17 0 obj
+<</Length 5258>>
+stream
+BT
+0 g
+/F6 78.959 Tf
+65.38 729.36 Td
+(Text Sample) Tj
+ET
+BT
+/F6 15.792 Tf
+56.693 672.667 Td
+(Fonts) Tj
+ET
+BT
+/F7 14.123 Tf
+56.693 649.99 Td
+(Courier) Tj
+ET
+BT
+/F8 14.123 Tf
+141.732 649.99 Td
+(Courier Bold) Tj
+ET
+BT
+/F9 14.123 Tf
+260.787 649.99 Td
+(Courier Italic) Tj
+ET
+BT
+/F7 14.123 Tf
+396.85 649.99 Td
+(Courier Underline) Tj
+ET
+0 G
+0.706 w
+[] 0 d
+396.85 648.578 m
+540.903 648.578 l
+S
+BT
+/F10 11.054 Tf
+56.693 632.982 Td
+(Helvetica) Tj
+ET
+BT
+/F6 11.054 Tf
+141.732 632.982 Td
+(Helvetica Bold) Tj
+ET
+BT
+/F11 11.054 Tf
+260.787 632.982 Td
+(Helvetica Italic) Tj
+ET
+BT
+/F10 11.054 Tf
+396.85 632.982 Td
+(Helvetica Underline) Tj
+ET
+0.553 w
+[] 0 d
+396.85 631.877 m
+492.68 631.877 l
+S
+BT
+/F12 11.989 Tf
+56.693 615.974 Td
+(Times-Roman) Tj
+ET
+BT
+/F13 11.741 Tf
+141.732 615.974 Td
+(Times-Roman Bold) Tj
+ET
+BT
+/F14 12.155 Tf
+260.787 615.974 Td
+(Times-Roman Italic) Tj
+ET
+BT
+/F12 11.989 Tf
+396.85 615.974 Td
+(Times-Roman Underline) Tj
+ET
+0.599 w
+[] 0 d
+396.85 614.775 m
+516.397 614.775 l
+S
+BT
+/F10 11.844 Tf
+56.693 590.462 Td
+(Symbol) Tj
+ET
+BT
+/F15 12.028 Tf
+141.732 590.462 Td
+(ABCDEFGHIJKLMNOPQRSTUVWXYZ) Tj
+ET
+BT
+/F10 11.844 Tf
+56.693 573.454 Td
+(ZapfDingbats) Tj
+ET
+BT
+/F16 11.827 Tf
+141.732 573.454 Td
+(ABCDEFGHIJKLMNOPQRSTUVWXYZ) Tj
+ET
+BT
+/F6 15.792 Tf
+56.693 528.1 Td
+(Int32 Values) Tj
+ET
+BT
+/F10 11.844 Tf
+56.693 505.423 Td
+(no format string) Tj
+ET
+BT
+250.538 505.423 Td
+(12345) Tj
+ET
+BT
+56.693 488.415 Td
+(format "0000000") Tj
+ET
+BT
+237.368 488.415 Td
+(0012345) Tj
+ET
+BT
+56.693 471.407 Td
+(format "$#,#") Tj
+ET
+BT
+241.691 471.407 Td
+($12'345) Tj
+ET
+BT
+56.693 454.399 Td
+(format "$#;\($#\);Zero") Tj
+ET
+BT
+243.953 454.399 Td
+($12345) Tj
+ET
+BT
+56.693 437.391 Td
+(format "$#;\($#\);Zero") Tj
+ET
+BT
+236.065 437.391 Td
+(\($12345\)) Tj
+ET
+BT
+56.693 420.384 Td
+(format "$#;\($#\);Zero") Tj
+ET
+BT
+259.113 420.384 Td
+(Zero) Tj
+ET
+BT
+/F6 15.792 Tf
+325.984 528.1 Td
+(Single / Double Values) Tj
+ET
+BT
+/F10 11.844 Tf
+325.984 505.423 Td
+(no format string) Tj
+ET
+BT
+516.537 505.423 Td
+(123.46) Tj
+ET
+BT
+325.984 488.415 Td
+(format "0.0000") Tj
+ET
+BT
+503.367 488.415 Td
+(123.4560) Tj
+ET
+BT
+325.984 471.407 Td
+(format "$#,#0.00") Tj
+ET
+BT
+509.952 471.407 Td
+($123.46) Tj
+ET
+BT
+325.984 454.399 Td
+(format "$#.0;\($#.0\);Zero") Tj
+ET
+BT
+516.537 454.399 Td
+($123.5) Tj
+ET
+BT
+325.984 437.391 Td
+(format "$#.0;\($#.0\);Zero") Tj
+ET
+BT
+508.649 437.391 Td
+(\($123.5\)) Tj
+ET
+BT
+325.984 420.384 Td
+(format "$#.0;\($#.0\);Zero") Tj
+ET
+BT
+528.405 420.384 Td
+(Zero) Tj
+ET
+BT
+/F6 15.792 Tf
+56.693 375.029 Td
+(DateTime Values) Tj
+ET
+BT
+/F10 11.844 Tf
+56.693 352.352 Td
+(no format string) Tj
+ET
+BT
+174.808 352.352 Td
+(13.11.2006 18:16:33) Tj
+ET
+BT
+56.693 335.344 Td
+(format "D") Tj
+ET
+BT
+133.367 335.344 Td
+(Montag, 13. November 2006) Tj
+ET
+BT
+56.693 318.336 Td
+(format "t") Tj
+ET
+BT
+253.831 318.336 Td
+(18:16) Tj
+ET
+BT
+56.693 301.329 Td
+(format "dd.MM.yyyy") Tj
+ET
+BT
+224.198 301.329 Td
+(13.11.2006) Tj
+ET
+0.941 g
+q
+0.99 0.139 -0.139 0.99 331.022 284.276 cm
+0 842.746 240.945 93.543 re
+f
+Q
+BT
+0 g
+/F6 15.792 Tf
+0.99 0.139 -0.139 0.99 325.984 360.856 Tm
+(Colors) Tj
+ET
+BT
+/F10 11.844 Tf
+0.99 0.139 -0.139 0.99 329.14 338.4 Tm
+(Red) Tj
+ET
+BT
+1
+0
+0 rg
+0.99 0.139 -0.139 0.99 455.302 356.13 Tm
+(ABCDEFGHIJKLM) Tj
+ET
+1 0 0 RG
+0.592 w
+[] 0 d
+455.466 354.958 m
+553.87 368.787 l
+S
+BT
+0 g
+0.99 0.139 -0.139 0.99 331.507 321.557 Tm
+(Green) Tj
+ET
+BT
+0
+0.502
+0 rg
+0.99 0.139 -0.139 0.99 457.669 339.288 Tm
+(ABCDEFGHIJKLM) Tj
+ET
+0 0.502 0 RG
+[] 0 d
+457.833 338.115 m
+556.237 351.945 l
+S
+BT
+0 g
+0.99 0.139 -0.139 0.99 333.874 304.715 Tm
+(Blue) Tj
+ET
+BT
+0
+0
+1 rg
+0.99 0.139 -0.139 0.99 460.036 322.446 Tm
+(ABCDEFGHIJKLM) Tj
+ET
+0 0 1 RG
+[] 0 d
+460.2 321.273 m
+558.604 335.103 l
+S
+BT
+0 g
+0.99 0.139 -0.139 0.99 336.241 287.873 Tm
+(RGB\(255,180,255\)) Tj
+ET
+BT
+0.784
+0.784
+1 rg
+0.99 0.139 -0.139 0.99 462.403 305.603 Tm
+(ABCDEFGHIJKLM) Tj
+ET
+0.784 0.784 1 RG
+[] 0 d
+462.568 304.43 m
+560.971 318.26 l
+S
+BT
+0 g
+/F6 15.792 Tf
+56.693 255.974 Td
+(Alignment) Tj
+ET
+0 0 1 RG
+0.567 w
+[] 0 d
+56.693 247.47 m
+133.9 247.47 l
+S
+[] 0 d
+56.693 255.974 m
+56.693 250.305 l
+S
+[] 0 d
+133.9 255.974 m
+133.9 250.305 l
+S
+BT
+/F10 5.132 Tf
+85.314 240.951 Td
+(27.2 mm) Tj
+ET
+0.529
+0.808
+0.98 rg
+283.465 190.777 42.52 42.52 re
+f
+BT
+0 g
+/F10 11.844 Tf
+213.692 233.297 Td
+(right - bottom) Tj
+ET
+BT
+233.436 182.273 Td
+(right - top) Tj
+ET
+BT
+325.984 233.297 Td
+(left - bottom) Tj
+ET
+BT
+325.984 182.273 Td
+(left - top) Tj
+ET
+BT
+288.267 207.785 Td
+(center) Tj
+ET
+BT
+/F6 15.792 Tf
+56.693 148.258 Td
+(Rotated Strings) Tj
+ET
+0.529
+0.808
+0.98 rg
+170.079 68.888 28.346 28.346 re
+f
+BT
+0 g
+/F10 11.844 Tf
+0.707 -0.707 0.707 0.707 192.412 62.874 Tm
+([45°]) Tj
+ET
+BT
+-0.707 -0.707 0.707 -0.707 170.079 68.888 Tm
+([135°]) Tj
+ET
+BT
+-0.707 0.707 -0.707 -0.707 176.092 103.247 Tm
+([225°]) Tj
+ET
+BT
+0.707 0.707 -0.707 0.707 198.425 97.234 Tm
+([315°]) Tj
+ET
+0.529
+0.808
+0.98 rg
+439.37 68.888 28.346 28.346 re
+f
+BT
+0 g
+0.707 -0.707 0.707 0.707 411.9 124.704 Tm
+(1/4 * PI) Tj
+ET
+0 G
+0.592 w
+[] 0 d
+411.063 123.866 m
+438.533 96.397 l
+S
+BT
+-0.707 -0.707 0.707 -0.707 489.173 130.717 Tm
+(3/4 * PI) Tj
+ET
+[] 0 d
+488.336 131.554 m
+460.866 104.085 l
+S
+BT
+-0.707 0.707 -0.707 -0.707 495.186 41.418 Tm
+(5/4 * PI) Tj
+ET
+[] 0 d
+496.024 42.255 m
+468.554 69.725 l
+S
+BT
+0.707 0.707 -0.707 0.707 417.914 35.405 Tm
+(7/4 * PI) Tj
+ET
+[] 0 d
+418.751 34.567 m
+446.221 62.037 l
+S
+endstream
+endobj
+18 0 obj
+<</Length 1815>>
+stream
+BT
+0 g
+/F6 15.792 Tf
+56.693 672.667 Td
+(Best Fitting Font) Tj
+ET
+0.529
+0.808
+0.98 rg
+56.693 536.604 226.772 113.386 re
+f
+BT
+0 g
+/F6 11.258 Tf
+56.693 633.824 Td
+(Once upon a time there was a miller who) Tj
+ET
+BT
+56.693 617.657 Td
+(was poor, but he had a beautiful daughter.) Tj
+ET
+BT
+56.693 601.491 Td
+(Now it happened that he was talking with) Tj
+ET
+BT
+56.693 585.325 Td
+(the king one time, and in order to make) Tj
+ET
+BT
+56.693 569.158 Td
+(himself seem important, he said to the) Tj
+ET
+BT
+56.693 552.992 Td
+(king, "I have a daughter who can spin) Tj
+ET
+BT
+56.693 536.826 Td
+(straw into gold.") Tj
+ET
+0.529
+0.808
+0.98 rg
+56.693 378.927 113.386 113.386 re
+f
+BT
+0 g
+/F10 8.513 Tf
+56.693 480.088 Td
+(Once upon a time there was) Tj
+ET
+BT
+56.693 467.864 Td
+(a miller who was poor, but he) Tj
+ET
+BT
+56.693 455.64 Td
+(had a beautiful daughter.) Tj
+ET
+BT
+56.693 443.415 Td
+(Now it happened that he was) Tj
+ET
+BT
+56.693 431.191 Td
+(talking with the king one time,) Tj
+ET
+BT
+56.693 418.966 Td
+(and in order to make himself) Tj
+ET
+BT
+56.693 406.742 Td
+(seem important, he said to) Tj
+ET
+BT
+56.693 394.517 Td
+(the king, "I have a daughter) Tj
+ET
+BT
+56.693 382.293 Td
+(who can spin straw into gold.") Tj
+ET
+0.529
+0.808
+0.98 rg
+56.693 256.683 85.039 85.039 re
+f
+BT
+0 g
+/F10 6.539 Tf
+56.693 332.332 Td
+(Once upon a time there was) Tj
+ET
+BT
+56.693 322.943 Td
+(a miller who was poor, but he) Tj
+ET
+BT
+56.693 313.553 Td
+(had a beautiful daughter.) Tj
+ET
+BT
+56.693 304.163 Td
+(Now it happened that he was) Tj
+ET
+BT
+56.693 294.773 Td
+(talking with the king one) Tj
+ET
+BT
+56.693 285.384 Td
+(time, and in order to make) Tj
+ET
+BT
+56.693 275.994 Td
+(himself seem important, he) Tj
+ET
+BT
+56.693 266.604 Td
+(said to the king, "I have a) Tj
+ET
+BT
+56.693 257.214 Td
+(daughter who can spin straw) Tj
+ET
+BT
+56.693 247.825 Td
+(into gold.") Tj
+ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f
+0000000009 00000 n
+0000000071 00000 n
+0000000183 00000 n
+0000000482 00000 n
+0000000679 00000 n
+0000000741 00000 n
+0000000842 00000 n
+0000000936 00000 n
+0000001035 00000 n
+0000001137 00000 n
+0000001234 00000 n
+0000001339 00000 n
+0000001438 00000 n
+0000001536 00000 n
+0000001636 00000 n
+0000001703 00000 n
+0000001776 00000 n
+0000007084 00000 n
+trailer
+<</Size 19
+/Root 1 0 R
+/Info 2 0 R
+/ID [(c544d27b-96d8-4a62-b369-c534be6ff136) (c544d27b-96d8-4a62-b369-c534be6ff136)]
+>>
+startxref
+8949
+%%EOF
