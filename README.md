@@ -46,7 +46,7 @@ Microsoft .NET Framework has been installed.
 | List Layout Manager Sample | [ListLayoutManagerSample.pdf](../master/ReportSamples/pdf/ListLayoutManagerSample.pdf) | [ListLayoutManagerSample.cs](../master/ReportSamples/SamplesDLL/ListLayoutManagerSample.cs) |
 | PDF-Properties Sample | [PdfPropertiesSample.pdf](../master/ReportSamples/pdf/PdfPropertiesSample.pdf) | [PdfPropertiesSample.cs](../master/ReportSamples/SamplesDLL/PdfPropertiesSample.cs) |
 | Table Layout Manager Sample | [TableLayoutManagerSample.pdf](../master/ReportSamples/pdf/TableLayoutManagerSample.pdf) | [TableLayoutManagerSample.cs](../master/ReportSamples/SamplesDLL/TableLayoutManagerSample.cs) |
-| Text Sample | [TextSample.pdf](../master/ReportSamples/pdf/TextSample.pdf") | [TextSample.cs](../master/ReportSamples/SamplesDLL/TextSample.cs) |
+| Text Sample | [TextSample.pdf](../master/ReportSamples/pdf/TextSample.pdf) | [TextSample.cs](../master/ReportSamples/SamplesDLL/TextSample.cs) |
 | Start Template C# | [StartTemplate.pdf](../master/ReportSamples/pdf/StartTemplate.pdf) | [StartTemplate.cs](../master/ReportSamples/StartTemplate/StartTemplate.cs) |
 | Start Template VB | [StartTemplateVB.pdf](../master/ReportSamples/pdf/StartTemplateVB.pdf) | [StartTemplateVB.vb](../master/ReportSamples/StartTemplateVB/StartTemplateVB.vb) |
 
