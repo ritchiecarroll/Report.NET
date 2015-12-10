@@ -37,16 +37,14 @@ Microsoft .NET Framework has been installed.
 
 | Example | Rendered PDF | Code |
 | --- | --- | --- |
-| ADO Sample VB	| [AdoSampleVB.pdf](../master/ReportSamples/pdf/AdoSampleVB.pdf) | [AdoSample.vb](../master/ReportSamples/AdoSampleVB/AdoSample.vb) |
-| Flow Layout Manager Sample | [FlowLayoutManagerSample.pdf](../master/ReportSamples/pdf/FlowLayoutManagerSample.pdf) | [FlowLayoutManagerSample.cs](../master/ReportSamples/SamplesDLL/FlowLayoutManagerSample.cs) |
-| Font Test |	[FontTest.pdf](../master/ReportSamples/pdf/FontTest.pdf) | [FontTest.cs](../master/ReportSamples/SamplesDLL/FontTest.cs) |
-| Hello World C# | [HelloWorld.pdf](../master/ReportSamples/pdf/HelloWorld.pdf) | [HelloWorld.cs](../master/ReportSamples/HelloWorld/HelloWorld.cs) |
-| Hello World VB | [HelloWorldVB.pdf](../master/ReportSamples/pdf/HelloWorldVB.pdf) | [HelloWorldVB.vb](../master/ReportSamples/HelloWorldVB/HelloWorldVB.vb) |
-| Image Sample | [ImageSample.pdf](../master/ReportSamples/pdf/ImageSample.pdf) | [ImageSample.cs](../master/ReportSamples/SamplesDLL/ImageSample.cs) |
-| List Layout Manager Sample | [ListLayoutManagerSample.pdf](../master/ReportSamples/pdf/ListLayoutManagerSample.pdf) | [ListLayoutManagerSample.cs](../master/ReportSamples/SamplesDLL/ListLayoutManagerSample.cs) |
-| PDF-Properties Sample | [PdfPropertiesSample.pdf](../master/ReportSamples/pdf/PdfPropertiesSample.pdf) | [PdfPropertiesSample.cs](../master/ReportSamples/SamplesDLL/PdfPropertiesSample.cs) |
-| Table Layout Manager Sample | [TableLayoutManagerSample.pdf](../master/ReportSamples/pdf/TableLayoutManagerSample.pdf) | [TableLayoutManagerSample.cs](../master/ReportSamples/SamplesDLL/TableLayoutManagerSample.cs) |
-| Text Sample | [TextSample.pdf](../master/ReportSamples/pdf/TextSample.pdf) | [TextSample.cs](../master/ReportSamples/SamplesDLL/TextSample.cs) |
+| Flow Layout Manager Sample | [FlowLayoutManagerSample.pdf](../master/ReportSamples/pdf/FlowLayoutManagerSample.pdf) | [FlowLayoutManagerSample.cs](../master/ReportSamples/Samples/FlowLayoutManagerSample.cs) |
+| Font Test |	[FontTest.pdf](../master/ReportSamples/pdf/Test.pdf) | [FontTest.cs](../master/ReportSamples/Samples/Test.cs) |
+| Image Sample | [ImageSample.pdf](../master/ReportSamples/pdf/ImageSample.pdf) | [ImageSample.cs](../master/ReportSamples/Samples/ImageSample.cs) |
+| List Layout Manager Sample | [ListLayoutManagerSample.pdf](../master/ReportSamples/pdf/ListLayoutManagerSample.pdf) | [ListLayoutManagerSample.cs](../master/ReportSamples/Samples/ListLayoutManagerSample.cs) |
+| PDF-Properties Sample | [PdfPropertiesSample.pdf](../master/ReportSamples/pdf/PdfPropertiesSample.pdf) | [PdfPropertiesSample.cs](../master/ReportSamples/Samples/PdfPropertiesSample.cs) |
+| Table Layout Manager Sample C# | [TableLayoutManagerSample.pdf](../master/ReportSamples/pdf/TableLayoutManagerSample.pdf) | [TableLayoutManagerSample.cs](../master/ReportSamples/Samples/TableLayoutManagerSample.cs) |
+| Table Layout Manager Sample VB | [TableLayoutManagerSampleVB.pdf](../master/ReportSamples/pdf/TableLayoutManagerSample.pdf) | [TableLayoutManagerSample.cs](../master/ReportSamples/TableLayoutManagerSampleVB/TableLayoutManagerSample.vb) |
+| Text Sample | [TextSample.pdf](../master/ReportSamples/pdf/TextSample.pdf) | [TextSample.cs](../master/ReportSamples/Samples/TextSample.cs) |
 | Start Template C# | [StartTemplate.pdf](../master/ReportSamples/pdf/StartTemplate.pdf) | [StartTemplate.cs](../master/ReportSamples/StartTemplate/StartTemplate.cs) |
 | Start Template VB | [StartTemplateVB.pdf](../master/ReportSamples/pdf/StartTemplateVB.pdf) | [StartTemplateVB.vb](../master/ReportSamples/StartTemplateVB/StartTemplateVB.vb) |
 
