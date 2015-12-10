@@ -9,7 +9,7 @@ So far this fork has made no changes to the code and simply exists to create NuG
 
 Although you can usually use the original .NET 2.0 DLL in later versions of .NET without issues, under some circumstances
 race conditions will occur when loading the .NET 2.0 framework side-by-side within a later version of .NET when executing
-Report.NET code that causes unhandled exceptions. These exceptions do not occur when using a version of the Reports.NET
+Report.NET code that causes unhandled exceptions. These exceptions do not occur when using a version of the Report.NET
 assembly that is compiled against the same .NET version as the deployed application.
 
 ## Project Description
