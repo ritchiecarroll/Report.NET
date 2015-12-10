@@ -3,13 +3,13 @@
     <metadata>
         <id>Report.NET</id>
         <version>0.09.06</version>
-        <title>Report.NET class library for generating precise PDF documents</title>
+        <title>Report.NET PDF Generator</title>
         <authors>Otto Mayer</authors>
         <licenseUrl>https://opensource.org/licenses/LGPL-2.1</licenseUrl>
         <projectUrl>https://github.com/ritchiecarroll/Report.NET</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/ritchiecarroll/Report.NET/master/web/icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>NET class library used to dyanmically generate PDF documents.</description>
+        <description>Class library used to dynamically generate PDF documents.</description>
         <summary>The Report.NET class library is used to generate precise PDF documents and dynamic PDF-response web pages.</summary>
         <copyright>Copyright 2002-2004 root-software ag, Bürglen Switzerland - O. Mayer, S. Spirig, R. Gartenmann, All Rights Reserved</copyright>
         <tags>PDF Report Dynamic Generator Writer Builder</tags>
