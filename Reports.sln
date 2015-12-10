@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Make.bat = Make.bat
 		readme.html = readme.html
 		README.md = README.md
+		Report.NET.nuspec = Report.NET.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports2.0", "Root\Reports\Reports2.0.csproj", "{73E7756A-EFE1-4267-8A3A-EF76C31C1CAB}"
@@ -35,10 +36,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73E7756A-EFE1-4267-8A3A-EF76C31C1CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73E7756A-EFE1-4267-8A3A-EF76C31C1CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E7756A-EFE1-4267-8A3A-EF76C31C1CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,6 +56,10 @@ Global
 		{D7C457CA-891F-425A-BEDC-2345A985FD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C457CA-891F-425A-BEDC-2345A985FD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C457CA-891F-425A-BEDC-2345A985FD35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4982CEF7-4CF3-48C0-8925-5E14AFD3C94D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B9F86B5-B877-4596-8363-3243E0ECB963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B9F86B5-B877-4596-8363-3243E0ECB963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B9F86B5-B877-4596-8363-3243E0ECB963}.Release|Any CPU.ActiveCfg = Release|Any CPU

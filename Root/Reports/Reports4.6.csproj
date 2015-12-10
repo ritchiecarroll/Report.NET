@@ -37,22 +37,22 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\Debug\$(TargetFrameworkVersion)\</OutputPath>
     <DefineConstants>TRACE;DEBUG;Framework2;Compatible_0_8x</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Reports.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\$(TargetFrameworkVersion)\Reports.XML</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\Release\$(TargetFrameworkVersion)\</OutputPath>
     <DefineConstants>TRACE;Framework2;Compatible_0_8x</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>bin\Release\Reports.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\$(TargetFrameworkVersion)\Reports.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
