@@ -8,8 +8,7 @@ under http://sourceforge.net/projects/report/.
 So far this fork has made no changes to the code and simply exists to create NuGet packages for various flavors of .NET: 
 https://www.nuget.org/packages/Report.NET/.
 
-Although you can usually use the original .NET 2.0 DLL downloaded from SourceForge in later versions of .NET without issues, under some circumstances race conditions will occur when loading the .NET 2.0 framework side-by-side within a later version of .NET when executing Report.NET code that causes unhandled exceptions. This repository exposes all .NET versions from 2.0 to 4.6.1 and the stated exceptions do not occur when using a version of the Report.NET
-assembly that is compiled against the same .NET version as the deployed application.
+Although you can usually use the original .NET 2.0 DLL downloaded from SourceForge in later versions of .NET without issues, under some circumstances race conditions will occur when loading the .NET 2.0 framework side-by-side within a later version of .NET when executing Report.NET code that causes unhandled exceptions. This repository exposes all .NET versions from 2.0 to 4.6.1 and the stated exceptions do not occur when using a version of the Report.NET assembly that is compiled against the same .NET version as the deployed application.
 
 ## Project Description
 
