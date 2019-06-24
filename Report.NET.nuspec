@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Report.NET</id>
-        <version>0.09.06</version>
+        <version>0.09.07</version>
         <title>Report.NET PDF Generator</title>
         <authors>Otto Mayer</authors>
-        <licenseUrl>https://opensource.org/licenses/LGPL-2.1</licenseUrl>
+        <license type="expression">MIT</license>
         <projectUrl>https://github.com/ritchiecarroll/Report.NET</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/ritchiecarroll/Report.NET/master/web/icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -24,5 +24,10 @@
         <file src="Root\Reports\bin\Release\v4.5.2\Reports.dll" target="lib\net452\Reports.dll" />
         <file src="Root\Reports\bin\Release\v4.6\Reports.dll" target="lib\net46\Reports.dll" />
         <file src="Root\Reports\bin\Release\v4.6.1\Reports.dll" target="lib\net461\Reports.dll" />
+        <file src="Root\Reports\bin\Release\v4.6.2\Reports.dll" target="lib\net462\Reports.dll" />
+        <file src="Root\Reports\bin\Release\v4.7\Reports.dll" target="lib\net47\Reports.dll" />
+        <file src="Root\Reports\bin\Release\v4.7.1\Reports.dll" target="lib\net471\Reports.dll" />
+        <file src="Root\Reports\bin\Release\v4.7.2\Reports.dll" target="lib\net472\Reports.dll" />
+        <file src="Root\Reports\bin\Release\v4.8\Reports.dll" target="lib\net48\Reports.dll" />
     </files>
 </package>

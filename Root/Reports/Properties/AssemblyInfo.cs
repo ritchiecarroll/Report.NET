@@ -33,9 +33,9 @@ using System.Runtime.InteropServices;
 // Version information
 [assembly: AssemblyVersion("0.09.*")]
 #if !WindowsCE
-[assembly: AssemblyFileVersion("0.09.06")]
+[assembly: AssemblyFileVersion("0.09.07")]
 #endif
-[assembly: AssemblyInformationalVersion("0.09.06")]
+[assembly: AssemblyInformationalVersion("0.09.07")]
 
 // Assembly signing
 [assembly: AssemblyDelaySign(false)]
