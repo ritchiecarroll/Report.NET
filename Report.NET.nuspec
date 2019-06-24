@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Report.NET</id>
-        <version>0.09.07</version>
+        <version>0.09.08</version>
         <title>Report.NET PDF Generator</title>
         <authors>Otto Mayer</authors>
-        <license type="expression">MIT</license>
+        <license type="expression">LGPL-2.1-or-later</license>
         <projectUrl>https://github.com/ritchiecarroll/Report.NET</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/ritchiecarroll/Report.NET/master/web/icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
