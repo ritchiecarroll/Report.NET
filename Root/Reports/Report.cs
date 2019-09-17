@@ -144,7 +144,7 @@ namespace Root.Reports {
     }
 
     //----------------------------------------------------------------------------------------------------
-    /// <summary>Saves the report.</summary>
+    /// <summary>Saves the report to a file on the disk.</summary>
     /// <param name="sFileName">File name</param>
     public void Save(String sFileName) {
       FileStream stream = File.Create(sFileName);
@@ -156,14 +156,29 @@ namespace Root.Reports {
       }
 
       try {
-        formatter.Create(this, stream);
-        foreach (Object o in al_PendingTasks) {
-//          TlmBase tlmBase = (TlmBase)o;
-          throw new ReportException("Layout manager has not been closed");
-        }
+        SaveToStream(stream);
       }
       finally {
         stream.Close();
+      }
+    }
+        
+    //----------------------------------------------------------------------------------------------------
+    /// <summary>Saves the report to an arbitrary stream.</summary>
+    /// <param name="stream">Output stream</param>
+    public void Save(Stream stream) {
+      if (page_Cur == null) {
+        Create();
+      }
+
+      SaveToStream(stream);
+    }
+
+    private void SaveToStream(Stream stream) {
+      formatter.Create(this, stream);
+      foreach (Object o in al_PendingTasks) {
+//          TlmBase tlmBase = (TlmBase)o;
+        throw new ReportException("Layout manager has not been closed");
       }
     }
   }
