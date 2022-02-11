@@ -57,6 +57,7 @@ namespace Root.Reports {
     }
 
     //------------------------------------------------------------------------------------------07.02.2006
+    #if !NETCOREAPP
     /// <summary>Shows the specified PDF document in a maximized window after that it has been created.</summary>
     /// <param name="sFileName">File name of the new PDF document</param>
     /// <exception cref="ReportException">
@@ -92,6 +93,7 @@ namespace Root.Reports {
       report.formatter = this;
       RT.ResponsePDF(report, page);
     }
-  }
+    #endif
+    }
 }
 #endif

@@ -31,11 +31,11 @@ using System.Runtime.InteropServices;
 [assembly: Guid("451e2d13-9a46-4ced-936d-ae89794a49ca")]
 
 // Version information
-[assembly: AssemblyVersion("0.09.*")]
+[assembly: AssemblyVersion("0.09.09")]
 #if !WindowsCE
-[assembly: AssemblyFileVersion("0.09.07")]
+[assembly: AssemblyFileVersion("0.09.09")]
 #endif
-[assembly: AssemblyInformationalVersion("0.09.07")]
+[assembly: AssemblyInformationalVersion("0.09.09")]
 
 // Assembly signing
 [assembly: AssemblyDelaySign(false)]

@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net20;net30;net35;net40;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Root.Reports</RootNamespace>
+    <AssemblyName>Reports</AssemblyName>
+    <MapFileExtensions>true</MapFileExtensions>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\$(TargetFrameworkVersion)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Framework2;Compatible_0_8x</DefineConstants>
+    <DocumentationFile>bin\Debug\$(TargetFrameworkVersion)\Reports.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\$(TargetFrameworkVersion)\</OutputPath>
+    <DefineConstants>TRACE;Framework2;Compatible_0_8x</DefineConstants>
+    <DocumentationFile>bin\Release\$(TargetFrameworkVersion)\Reports.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PDF\afm\Courier-Bold.afm" />
+    <EmbeddedResource Include="PDF\afm\Courier-BoldOblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Courier-Oblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Courier.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica-Bold.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica-BoldOblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica-Oblique.afm" />
+    <EmbeddedResource Include="PDF\afm\Helvetica.afm" />
+    <EmbeddedResource Include="PDF\afm\Symbol.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-Bold.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-BoldItalic.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-Italic.afm" />
+    <EmbeddedResource Include="PDF\afm\Times-Roman.afm" />
+    <EmbeddedResource Include="PDF\afm\ZapfDingbats.afm" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PDF\afm\MustRead.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="PDF\PdfFontData.cs" />
+    <Compile Remove="PDF\PdfFontDefX.cs" />
+    <Compile Remove="PDF\PdfFontPropX.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' != 'net'" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'" />
+    <Reference Include="System.Web" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'" />
+    <Reference Include="System.Windows.Forms" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'" />
+  </ItemGroup>
+</Project>

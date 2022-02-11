@@ -304,6 +304,7 @@ namespace Root.Reports {
     /// </code>
     /// </example>
     public static void ViewPDF(Report report) {
+      #if !NETCOREAPP
       System.Windows.Forms.Form form = System.Windows.Forms.Form.ActiveForm;
       System.Windows.Forms.Cursor cur_Old = System.Windows.Forms.Cursors.Default;
       try {
@@ -311,16 +312,20 @@ namespace Root.Reports {
           cur_Old = form.Cursor;
           form.Cursor = System.Windows.Forms.Cursors.WaitCursor;
         }
+      #endif
 
         String sFileName = Path.GetTempFileName();
         report.Save(sFileName);
         ViewPDF(sFileName);
+
+      #if !NETCOREAPP
       }
-      finally {
+            finally {
         if (form != null) {
           form.Cursor = cur_Old;
         }
       }
+      #endif
     }
     #endif
 
@@ -409,6 +414,7 @@ namespace Root.Reports {
     #endif
 
     //------------------------------------------------------------------------------------------07.03.2005
+    #if !WindowsCE && !NETCOREAPP
     /// <summary>Sends the specified report to the browser.</summary>
     /// <param name="report">Report object that creates the PDF document</param>
     /// <param name="page">Page that has requested this report</param>
@@ -431,7 +437,6 @@ namespace Root.Reports {
     /// &lt;/script&gt;
     /// </code>
     /// </example>
-    #if !WindowsCE
     public static void ResponsePDF(Report report, System.Web.UI.Page page) {
       page.Response.Clear();
       page.Response.ContentType = "application/pdf";
@@ -471,7 +476,7 @@ namespace Root.Reports {
     }
 
     //------------------------------------------------------------------------------------------02.08.2004
-    #if !WindowsCE 
+    #if !WindowsCE && !NETCOREAPP
     /// <summary>Sends the specified report to the browser.</summary>
     /// <param name="report">Report object that creates the PDF document</param>
     /// <param name="response">Response stream</param>
