@@ -7,30 +7,48 @@
         <authors>Otto Mayer</authors>
         <license type="expression">LGPL-2.1-or-later</license>
         <projectUrl>https://github.com/ritchiecarroll/Report.NET</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/ritchiecarroll/Report.NET/master/web/icon.png</iconUrl>
+        <icon>images\icon.png</icon>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Class library used to dynamically generate PDF documents.</description>
         <summary>The Report.NET class library is used to generate precise PDF documents and dynamic PDF-responses, e.g., for web pages.</summary>
         <copyright>Copyright 2002-2004 root-software ag, Bürglen Switzerland - O. Mayer, S. Spirig, R. Gartenmann, All Rights Reserved</copyright>
         <tags>PDF Report Dynamic Generator Writer Builder</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework2.0" />
+            <group targetFramework=".NETFramework3.0" />
+            <group targetFramework=".NETFramework3.5" />
+            <group targetFramework=".NETFramework4.0" />
+            <group targetFramework=".NETFramework4.5" />
+            <group targetFramework=".NETFramework4.5.1" />
+            <group targetFramework=".NETFramework4.5.2" />
+            <group targetFramework=".NETFramework4.6" />
+            <group targetFramework=".NETFramework4.6.1" />
+            <group targetFramework=".NETFramework4.6.2" />
+            <group targetFramework=".NETFramework4.7" />
+            <group targetFramework=".NETFramework4.7.1" />
+            <group targetFramework=".NETFramework4.7.2" />
+            <group targetFramework=".NETFramework4.8" />
+            <group targetFramework=".NET5.0" />
+            <group targetFramework=".NET6.0" />
+            <group targetFramework=".NETCoreApp3.1" />
+        </dependencies>
     </metadata>
     <files>
-        <file src="Root\Reports\bin\Release\v2.0\Reports.dll" target="lib\net20\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v3.0\Reports.dll" target="lib\net30\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v3.5\Reports.dll" target="lib\net35\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.0\Reports.dll" target="lib\net40\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.5\Reports.dll" target="lib\net45\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.5.1\Reports.dll" target="lib\net451\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.5.2\Reports.dll" target="lib\net452\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.6\Reports.dll" target="lib\net46\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.6.1\Reports.dll" target="lib\net461\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.6.2\Reports.dll" target="lib\net462\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.7\Reports.dll" target="lib\net47\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.7.1\Reports.dll" target="lib\net471\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.7.2\Reports.dll" target="lib\net472\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.8\Reports.dll" target="lib\net48\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.8\Reports.dll" target="lib\net48\Reports.dll" />
-        <file src="Root\Reports\bin\Release\v4.8\Reports.dll" target="lib\net48\Reports.dll" />
+        <file src="web\icon.png" target="images\icon.png" />
+        <file src="Root\Reports\bin\Release\net20\Reports.dll" target="lib\net20\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net30\Reports.dll" target="lib\net30\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net35\Reports.dll" target="lib\net35\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net40\Reports.dll" target="lib\net40\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net45\Reports.dll" target="lib\net45\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net451\Reports.dll" target="lib\net451\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net452\Reports.dll" target="lib\net452\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net46\Reports.dll" target="lib\net46\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net461\Reports.dll" target="lib\net461\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net462\Reports.dll" target="lib\net462\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net47\Reports.dll" target="lib\net47\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net471\Reports.dll" target="lib\net471\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net472\Reports.dll" target="lib\net472\Reports.dll" />
+        <file src="Root\Reports\bin\Release\net48\Reports.dll" target="lib\net48\Reports.dll" />
         <file src="Root\Reports\bin\Release\net5.0\Reports.dll" target="lib\net5.0\Reports.dll" />
         <file src="Root\Reports\bin\Release\net6.0\Reports.dll" target="lib\net6.0\Reports.dll" />
         <file src="Root\Reports\bin\Release\netcoreapp3.1\Reports.dll" target="lib\netcoreapp3.1\Reports.dll" />
