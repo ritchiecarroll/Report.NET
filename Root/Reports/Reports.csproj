@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net20;net30;net35;net40;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
     <OutputType>Library</OutputType>
@@ -42,7 +42,7 @@
     <Compile Remove="PDF\PdfFontPropX.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' != 'net'" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.6" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' != 'net'" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Drawing" Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'" />
